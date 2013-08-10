@@ -3,7 +3,7 @@
 
 /* VARIABLES =================================== */
 
-
+$bg: #bce9ec;
 
 /* MIXINS ====================================== */
 
@@ -18,3 +18,65 @@
 }
 
 /* SITE STYLES ================================= */
+
+html {
+	background-color: $bg;
+}
+
+h1 {
+	text-align: center;
+	padding: 1em;
+	font-size:4em;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	line-height:1;
+}
+
+.batstatus {
+	font-size: 23em;
+	text-align: center;
+	text-shadow: 0 0 2em lighten($bg, 40%);
+}
+
+.broken {
+	font-family: helvetica, Arial, sans-serif;
+	max-width: 30em;
+	font-weight: normal;
+	color: darken($bg, 40%);
+	line-height:1.5;
+	margin: 0 auto;
+	padding-bottom: 1em;
+	a {
+		color: darken($bg, 60%);
+		text-decoration: none;
+		@include transition;
+		&:hover {
+			color: darken($bg, 100%);
+		}
+	}
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	margin: 0 auto;
+	width: 100%;
+	display: block;
+	text-align:center;
+	background-color: darken($bg, 70%);
+	line-height: 3em;
+	color: lighten($bg, 40%);
+	p {
+		text-align: center;
+		font-size: 0.8em;
+		color: darken($bg, 50%);
+		font-family: helvetica, Arial, sans-serif;
+		a {
+			text-decoration: none;
+			color: darken($bg, 10%);
+			@include transition;
+			&:hover {
+				color: lighten($bg, 100%);
+			}
+		}
+	}
+}

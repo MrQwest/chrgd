@@ -1,0 +1,96 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* VARIABLES =================================== */
+/* MIXINS ====================================== */
+/* GENERAL STYLES ================================= */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* SITE STYLES ================================= */
+html {
+  background-color: #bce9ec; }
+
+h1 {
+  text-align: center;
+  padding: 1em;
+  font-size: 4em;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  line-height: 1; }
+
+.batstatus {
+  font-size: 23em;
+  text-align: center;
+  text-shadow: 0 0 2em white; }
+
+.broken {
+  font-family: helvetica, Arial, sans-serif;
+  max-width: 30em;
+  font-weight: normal;
+  color: #31a4ab;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding-bottom: 1em; }
+  .broken a {
+    color: #1a585c;
+    text-decoration: none;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out; }
+    .broken a:hover {
+      color: black; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+  text-align: center;
+  background-color: #0f3234;
+  line-height: 3em;
+  color: white; }
+  footer p {
+    text-align: center;
+    font-size: 0.8em;
+    color: #257e84;
+    font-family: helvetica, Arial, sans-serif; }
+    footer p a {
+      text-decoration: none;
+      color: #94dce1;
+      -webkit-transition: all 0.1s ease-in-out;
+      -moz-transition: all 0.1s ease-in-out;
+      transition: all 0.1s ease-in-out; }
+      footer p a:hover {
+        color: white; }

@@ -94,3 +94,5 @@ footer {
       transition: all 0.1s ease-in-out; }
       footer p a:hover {
         color: white; }
+    footer p .ss-heart {
+      padding: 0 1em; }

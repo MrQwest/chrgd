@@ -7,6 +7,7 @@ function updateBatteryStatus() {
 
   if (battery.charging) {
     console.log("Battery is charging");
+    $("body").addClass("charging");
   }
 }
 
